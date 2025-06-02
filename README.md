@@ -119,8 +119,6 @@ These two sub-blocks run **in parallel**, ensuring no information loss from casc
   - Refined attention map `A_i` applied to EMRC features, producing contextually enriched, cross-modal representations.
 
 ---
-# Convert the first page of fig_1_1_1_1_1_1_1_1_1.pdf into a PNG:
-convert -density 300 fig_1_1_1_1_1_1_1_1_1.pdf[0] -quality 100 images/figure1.png
 
 [![Figure 1](https://raw.githubusercontent.com/Submission-01/EHPAL/main/fig_1_1_1_1_1_1_1_1_1.pdf)](https://github.com/Submission-01/EHPAL/blob/main/fig_1_1_1_1_1_1_1_1_1.pdf)
 
