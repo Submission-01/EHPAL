@@ -118,6 +118,47 @@ These two sub-blocks run **in parallel**, ensuring no information loss from casc
 - **Output**:  
   - Refined attention map `A_i` applied to EMRC features, producing contextually enriched, cross-modal representations.
 
+## 4. Addressing Key Challenges
+
+To demonstrate how EHPAL-Net overcomes the three core limitations of existing multimodal fusion learning (MFL) methods, we describe our design choices in detail:
+
+### 1. Effective Learning of Richer Complementary Shared Representations
+
+- **Efficient Hybrid Fusion Strategy**  
+  1. **EMRC (Efficient Multimodal Residual Convolution)**  
+     - Captures multi-scale spatial details across each modality pair.  
+  2. **PCMFA (Physics-informed Cross-modal Fusion Attention)**  
+     - Focuses on learning fine-grained cross-modal interactions via an intermediate-fusion attention mechanism.  
+  3. **Learnable Late Fusion (LF)**  
+     - Integrates complementary cues from each modality’s EMRC+PCMFA outputs to preserve shared cross-modal patterns.  
+  4. **SIR (Shared Information Refinement)**  
+     - Enhances representational diversity by refining the fused shared features before passing to the next EHF layer.  
+
+  > This cascaded design—EMRC ➔ PCMFA ➔ LF ➔ SIR—outperforms methods that rely solely on early, intermediate, late, or hybrid-early fusion, by capturing richer and more effective shared representations.
+
+### 2. Efficient and Effective Design
+
+- **Jointly Optimized Modules**  
+  - **EMRC**, **PCMFA**, and **SIR** are architected to minimize parameter count and FLOPs while maximizing representational power:  
+    - EMRC employs lightweight residual connections and heterogeneous convolutions for spatial feature extraction.  
+    - PCMFA combines hyperbolic and quantum-inspired attention branches in parallel, avoiding large, iterative attention matrices.  
+    - SIR uses a shallow refinement block to diversify shared features without significant computational overhead.  
+- **Synergistic Performance–Computation Trade-off**  
+  - By combining these three modules in a single-pass pipeline (no back-and-forth loops), EHPAL-Net achieves state-of-the-art accuracy with minimal latency—ideal for deployment in resource-constrained medical settings.
+
+### 3. Generalization Across Heterogeneous Data Sources
+
+- **Extensive Evaluation**  
+  - EHPAL-Net is evaluated on **fifteen diverse medical datasets**, including:  
+    - **Imaging**: HAM10000, SIPaKMeD, PathMNIST, OrganAMNIST, BraTS-2021, SARS-CoV-2 CT-Scan, CNMC-2019, Chest X-ray Pneumonia  
+    - **Multi-omics**: TCGA-BRCA, TCGA-UCEC, TCGA-GBMLGG, TCGA-KIRP  
+    - **EHR/Clinical**: MIMIC-III (MORT and ICD9 tasks), MHEALTH, UCI-HAR  
+- **Scalability and Multitask Adaptability**  
+  - The same EHF layers (EMRC ➔ PCMFA ➔ LF ➔ SIR) can fuse any combination of 2D imaging, tabular omics, and clinical time-series.  
+  - Under the **HMML** phase, the final shared representation `x_C` feeds into multiple heads (e.g., disease classification, survival prediction) with Monte Carlo Dropout enabling reliable uncertainty estimation.
+
+> By addressing each challenge—effective representation learning, efficient module design, and broad generalization—EHPAL-Net pushes the boundaries of multimodal fusion learning in healthcare AI.
+
 ---
 
 
