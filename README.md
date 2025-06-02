@@ -125,6 +125,11 @@ These two sub-blocks run **in parallel**, ensuring no information loss from casc
 
 *Figure 1: Comparative high-level overview of various multimodal fusion learning methods – (A) Architecture of intermediate or late fusion methods (DRIFA-Net [17], MuMu [31], MOTCAT [68], etc.) (B) Architecture of hybrid early and intermediate fusion methods (HEALNet [28]) (C) Architecture of our proposed EHPAL-Net.*
 
+## Figure 2
+
+![Figure 2: An overview of EHPAL-Net comprising of two phases MSIL and HMML. (A) Overview of MSIL phase utilizing Efficient Hybrid Fusion (EHF) layer. (B) Overview of HMML phase. (C) Detailed layout of EHF layer used in MSIL phase.](https://raw.githubusercontent.com/Submission-01/EHPAL/main/Fig%202.png)
+
+*Figure 2: An overview of EHPAL-Net comprising of two phases MSIL and HMML. (A) Overview of MSIL phase utilizing Efficient Hybrid Fusion (EHF) layer. (B) Overview of HMML phase. (C) Detailed layout of EHF layer used in MSIL phase.*
 
 
 <p><span style="color:blue;"><strong>NOTE:</strong></span></p>
