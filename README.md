@@ -1,6 +1,6 @@
 # EHPAL-Net: Efficient Hybrid-fusion Physics-informed Attention Learning Network
 
-Multimodal fusion learning offers a framework to jointly learn from heterogeneous data sources—a capability that is especially critical in healthcare, where AI models must integrate imaging, clinical records, and multi-omics to perform tasks like disease classification and survival prediction. Existing fusion strategies, however, suffer from three primary limitations:
+Multimodal fusion learning offers a framework to jointly learn from heterogeneous data sources—a capability that is especially critical in healthcare, where AI models must integrate imaging, clinical records, and multi-omics to perform tasks like disease classification and survival prediction. Existing fusion strategies, however, suffer from four primary limitations:
 
 1. **Ineffective Cross-Modal Interaction Modeling**  
    Most methods struggle to capture fine-grained, structure-preserving relationships across diverse modalities, leading to suboptimal shared representations.
@@ -10,6 +10,12 @@ Multimodal fusion learning offers a framework to jointly learn from heterogeneou
 
 3. **High Computational Overhead**  
    Intermediate fusion layers often rely on large, high-dimensional attention matrices, which drastically increase parameter count and FLOPs—making deployment in resource-constrained environments impractical.
+
+4. **Assumption of Sample-wise Alignment**  
+   A common shortcoming of many multimodal fusion approaches is the assumption that each modality is drawn from the same patient cohort. In contrast, EHPAL-Net is trained and evaluated on a suite of completely unpaired, heterogeneous datasets (e.g., HAM10000, SIPaKMeD, CNMC, BraTS-2021, KVASIR, MIT-BIH, TCGA-BRCA, KIRP, UCEC), each collected under different protocols and patient populations. This heterogeneity introduces two primary challenges:  
+   - **Absence of Sample-wise Correspondence**: Without paired examples, there is no direct supervision for mapping features in one modality to those in another.  
+   - **Distributional Shifts Across Cohorts**: Varying demographic, imaging, and noise characteristics across datasets can undermine naive fusion strategies.  
+
 
 ---
 
