@@ -137,6 +137,16 @@ These two sub-blocks run **in parallel**, ensuring no information loss from casc
 
 *Figure 3: (A) Illustration of the PCMFA module’s role in learning complementary shared representations. (B) Overview of PCMFA module. (C) Overview of MHDGA module. (D) Overview of the Poincaré Information Learning (PIL) sub-block. (E–F) Overview of the Lorentz Information Learning (LIL) sub-block and the MQIA approach, illustrating how they mutually guide each other.*
 
+## Figure 4
+
+![Figure 4: Mean percentage uplift of multimodal fusion models over the best unimodal baselines across four heterogeneous medical datasets. EHPAL-Net’s efficient hybrid fusion variants consistently outperform early, intermediate, late, and hybrid early fusion methods.](https://raw.githubusercontent.com/Submission-01/EHPAL/main/Fig%204.png)
+
+*Figure 4: Mean percentage uplift of multimodal fusion models over the best unimodal baselines across four heterogeneous medical datasets. EHPAL-Net’s efficient hybrid fusion variants consistently outperform early, intermediate, late, and hybrid early fusion methods.*
+## Figure 6
+
+![Figure 6: Average performance comparison among single-modality learning models (e.g., MFMSA), computationally intensive multimodal fusion learning (MFL) methods (e.g., DRIFA-Net [15], MuMu [31]), HEALNet [28], and our efficient and effective EHPAL-Net across eight benchmark datasets: HAM10000, SIPaKMeD, TCGA-BRCA, MIMIC-III (MORT and ICD9 tasks), PATHMNIST, OrganAMNIST, and TCGA-UCEC.](https://raw.githubusercontent.com/Submission-01/EHPAL/main/Fig%205.png)
+
+*Figure 6: Average performance comparison among single-modality learning models (e.g., MFMSA), computationally intensive multimodal fusion learning (MFL) methods (e.g., DRIFA-Net [15], MuMu [31]), HEALNet [28], and our efficient and effective EHPAL-Net across eight benchmark datasets: HAM10000, SIPaKMeD, TCGA-BRCA, MIMIC-III (MORT and ICD9 tasks), PATHMNIST, OrganAMNIST, and TCGA-UCEC.*
 
 
 <p><span style="color:blue;"><strong>NOTE:</strong></span></p>
