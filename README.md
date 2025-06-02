@@ -119,12 +119,12 @@ These two sub-blocks run **in parallel**, ensuring no information loss from casc
   - Refined attention map `A_i` applied to EMRC features, producing contextually enriched, cross-modal representations.
 
 ---
-![image](https://github.com/Submission-01/EHPAL/blob/main/fig_1_1_1_1_1_1_1_1_1.pdf)
-## Figure 1
+[![Figure 1](https://raw.githubusercontent.com/Submission-01/EHPAL/main/fig_1_1_1_1_1_1_1_1_1.pdf)](https://github.com/Submission-01/EHPAL/blob/main/fig_1_1_1_1_1_1_1_1_1.pdf)
+
 
 ![Figure 1: Comparative high-level overview of various multimodal fusion learning methods – (A) Architecture of intermediate or late fusion methods (DRIFA-Net [17], MuMu [31], MOTCAT [68], etc.) (B) Architecture of hybrid early and intermediate fusion methods (HEALNet [28]). (C) Architecture of our proposed EHPAL-Net.](images/figure1_overview.png)
 
-*Figure 1: Comparative high-level overview of various multimodal fusion learning methods – (A) Architecture of intermediate or late fusion methods (DRIFA-Net [17], MuMu [31], MOTCAT [68], etc.), (B) Architecture of hybrid early and intermediate fusion methods (HEALNet [28]), (C) Architecture of our proposed EHPAL-Net.*
+
 
 
 <p><span style="color:blue;"><strong>NOTE:</strong></span></p>
