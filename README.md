@@ -120,26 +120,13 @@ These two sub-blocks run **in parallel**, ensuring no information loss from casc
 
 ---
 
-## Putting It All Together
+<p><span style="color:blue;"><strong>NOTE:</strong></span></p>
 
-```mermaid
-flowchart LR
-    subgraph EHF Layer
-      direction TB
-      EMRC[Efficient Multimodal Residual Convolution]
-      PCMFA[Physics-informed Cross-modal Fusion Attention]
-      LF[Learnable Late Fusion]
-      EMRC --> PCMFA --> LF
-    end
-    subgraph MSIL Phase
-      direction LR
-      Modality1 -->|Feature Extraction| EMRC
-      Modality2 --> EMRC
-      EMRC --> PCMFA
-      PCMFA --> LF --> x2S[(x_2^S)]
-      x2S --> EHF2[Next EHF Layer for Modality 3]
-      ... --> xfused[(x_C)]
-    end
-    xfused --> HMML[HMML Phase: Classification | Survival | Uncertainty]
+<p><span style="color:blue;">For Multi-disease classification and mortality prediction, use this code:</span>  
+<code>EHPAL-Net_for_multi-disease_classification_and_moratlity_prediction.ipynb</code></p>
+
+<p><span style="color:blue;">For Multi-disease classification and patient survival and mortality predictions, use this code:</span>  
+<code>EHPAL-Net_for_multi-disease_classification_and_patient_survival_and_moratlity_predictions.ipynb</code></p>
+
 
 
