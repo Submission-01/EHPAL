@@ -131,6 +131,13 @@ These two sub-blocks run **in parallel**, ensuring no information loss from casc
 
 *Figure 2: An overview of EHPAL-Net comprising of two phases MSIL and HMML. (A) Overview of MSIL phase utilizing Efficient Hybrid Fusion (EHF) layer. (B) Overview of HMML phase. (C) Detailed layout of EHF layer used in MSIL phase.*
 
+## Figure 3
+
+![Figure 3: (A) Illustration of the PCMFA module’s role in learning complementary shared representations. (B) Overview of PCMFA module. (C) Overview of MHDGA module. (D) Overview of the Poincaré Information Learning (PIL) sub-block. (E–F) Overview of the Lorentz Information Learning (LIL) sub-block and the MQIA approach, illustrating how they mutually guide each other.](https://raw.githubusercontent.com/Submission-01/EHPAL/main/Fig%203.png)
+
+*Figure 3: (A) Illustration of the PCMFA module’s role in learning complementary shared representations. (B) Overview of PCMFA module. (C) Overview of MHDGA module. (D) Overview of the Poincaré Information Learning (PIL) sub-block. (E–F) Overview of the Lorentz Information Learning (LIL) sub-block and the MQIA approach, illustrating how they mutually guide each other.*
+
+
 
 <p><span style="color:blue;"><strong>NOTE:</strong></span></p>
 
