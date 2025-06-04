@@ -32,9 +32,7 @@ To overcome these challenges, we introduce the **Efficient Hybrid-fusion Physics
      - Captures multi-scale spatial details across each modality pair.  
   2. **PCMFA (Physics-informed Cross-modal Fusion Attention)**  
      - Focuses on learning fine-grained cross-modal interactions via an intermediate-fusion attention mechanism.  
-  3. **Learnable Late Fusion (LF)**  
-     - Integrates complementary cues from each modality’s EMRC+PCMFA outputs to preserve shared cross-modal patterns.  
-  4. **SIR (Shared Information Refinement)**  
+  3. **SIR (Shared Information Refinement)**  
      - Enhances representational diversity by refining the fused shared features before passing to the next EHF layer.  
 
   > This cascaded design—EMRC ➔ PCMFA ➔ LF ➔ SIR—outperforms methods that rely solely on early, intermediate, late, or hybrid-early fusion, by capturing richer and more effective shared representations.
