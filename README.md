@@ -35,7 +35,7 @@ To overcome these challenges, we introduce the **Efficient Hybrid-fusion Physics
   3. **SIR (Shared Information Refinement)**  
      - Enhances representational diversity by refining the fused shared features before passing to the next EHF layer.  
 
-  > This cascaded design—EMRC ➔ PCMFA ➔ LF ➔ SIR—outperforms methods that rely solely on early, intermediate, late, or hybrid-early fusion, by capturing richer and more effective shared representations.
+  > This cascaded design—EMRC ➔ PCMFA ➔ SIR—outperforms methods that rely solely on early, intermediate, late, or hybrid-early fusion, by capturing richer and more effective shared representations.
 
 ### 2. Efficient and Effective Design
 
