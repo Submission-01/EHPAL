@@ -51,6 +51,24 @@ To overcome these challenges, we introduce the **Efficient Hybrid-fusion Physics
 
 > By addressing each challenge—effective representation learning, efficient module design, and broad generalization—EHPAL-Net pushes the boundaries of multimodal fusion learning in healthcare AI.
 
+### 4. Datasets and Links
+
+- [Skin Cancer MNIST: HAM10000](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
+- [Computer Science Department, University of Ioannina](https://www.cs.uoi.gr/)
+- [MedMNIST](https://medmnist.com/)
+- [MedMNIST (Documentation)](https://medmnist.com/)
+- [RSNA-ASNR-MICCAI-BRATS 2021 Dataset](https://www.cancerimagingarchive.net/analysis-result/rsna-asnr-miccai-brats-2021/)
+- [SARS-CoV-2 CT Scan Dataset](https://www.kaggle.com/datasets/plameneduardo/sarscov2-ctscan-dataset)
+- [C-NMC 2019 Collection](https://www.cancerimagingarchive.net/collection/c-nmc-2019/)
+- [Chest X-ray Pneumonia](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+- [TCGA-BRCA Collection](https://www.cancerimagingarchive.net/collection/tcga-brca/)
+- [TCGA-UCEC Collection](https://www.cancerimagingarchive.net/collection/tcga-ucec/)
+- [TCGA-GBM Collection](https://www.cancerimagingarchive.net/collection/tcga-gbm/)
+- [TCGA-KIRP Collection](https://www.cancerimagingarchive.net/collection/tcga-kirp/)
+- [MIMIC-III Clinical Database](https://physionet.org/content/mimiciii/1.4/)
+- [UCI MHEALTH Dataset](https://archive.ics.uci.edu/dataset/319/mhealth+dataset)
+- [UCI Human Activity Recognition Using Smartphones](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones/)
+
 ---
 
 
