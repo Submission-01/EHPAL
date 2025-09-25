@@ -1,4 +1,4 @@
-# EHPAL-Net: Efficient Hybrid-fusion Physics-informed Attention Learning Network
+# EHPAL-Net: Efficient Hybrid-fusion Physics-inspired Attention Learning Network
 
 Multimodal fusion learning offers a framework to jointly learn from heterogeneous data sources—a capability that is especially critical in healthcare, where AI models must integrate imaging, clinical records, and multi-omics to perform tasks like disease classification and survival prediction. Existing fusion strategies, however, suffer from four primary limitations:
 
@@ -21,7 +21,7 @@ Multimodal fusion learning offers a framework to jointly learn from heterogeneou
 
 ## Our Proposed Approach: EHPAL-Net
 
-To overcome these challenges, we introduce the **Efficient Hybrid-fusion Physics-informed Attention Learning Network (EHPAL-Net)**—a lightweight, scalable framework designed for efficient, generalizable multimodal fusion in healthcare AI. 
+To overcome these challenges, we introduce the **Efficient Hybrid-fusion Physics-inspired Attention Learning Network (EHPAL-Net)**—a lightweight, scalable framework designed for efficient, generalizable multimodal fusion in healthcare AI. 
 
 ## Addressing Key Challenges by EHPAL-Net:
 
